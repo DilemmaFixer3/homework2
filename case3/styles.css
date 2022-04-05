@@ -1,0 +1,52 @@
+body{
+    background: darkturquoise;
+}
+
+.struct3{
+    height: 450px;
+    width: 1240px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.part{
+    width: 600px;
+    height: 150px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: calc(25% - 300px);
+    margin-left: calc(25% - 300px);
+    margin-bottom: 20px;
+}
+
+h2{
+    color: orange;
+    font-size: 20px;
+    font-family: "Calibri Light";
+}
+
+.icon0{
+    font-size: 40px;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text3{
+    font-family: "Calibri Light";
+    flex-wrap: wrap;
+}
+
+.txt{
+flex-direction: column;
+}
+
